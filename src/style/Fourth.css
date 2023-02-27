@@ -1,0 +1,167 @@
+* {
+  @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+}
+
+@media only screen 
+   and (max-width : 500px) {
+
+    .forth {display: none;
+      font-family: "Roboto", sans-serif;
+      background-color: #f2f2f2;
+      margin-top: -1.8rem;
+     
+      height: 40rem;
+      
+      
+    }
+    .forth h3 {
+      width: 250px;
+      height: 48px;
+      /* UI Properties */
+      text-align: left;
+      font: normal normal bold 36px/48px Roboto;
+      letter-spacing: 0px;
+      color: #26093a;
+      opacity: 1;
+      border: n;
+      margin-left: 33rem;
+    }
+    .dif {
+        display: flex;
+        flex-direction: column; 
+        /* grid-template-columns: 1fr 1fr 1fr; 
+        grid-template-rows: 1fr; 
+        gap: 10px px; 
+        grid-template-areas: 
+          ". . .";  */
+    }
+    
+    .box {
+      width: 15rem;
+      height: 13rem;
+      position: relative;
+    }
+    .hyph {
+      width: 3rem;
+      height: 3rem;
+      position: absolute;
+      border: 1px solid red;
+    }
+   
+    .dif p {
+      top: 200rem;
+    
+      width: 286px;
+      height: 80px;
+      text-align: center;
+      font: normal normal normal 16px/21px Roboto;
+      letter-spacing: 0px;
+      color: #ffffff;
+      /* border: 1px solid red; */
+      position: absolute;
+      margin-left: 6rem;
+      display: none;
+    }
+    
+    /* 
+        position:absolute;
+         */
+    .clienta {
+      display: flex;
+      flex-direction: row;
+    }
+    .clienta img {
+      width: 4rem;
+      height: 4rem;
+      border-radius: 100%;
+      margin-left: 5rem;
+      margin-top: rem;
+    }
+    .clienta h5 {
+      margin-top: -rem;
+    }
+    .clienta h6 {
+      margin-top: -0.5rem;
+    }
+
+   }
+   @media only screen 
+   and (min-width : 700px) {
+    .forth {
+      font-family: "Roboto", sans-serif;
+      background-color: #f2f2f2;
+      margin-top: -1.8rem;
+      padding-top: 1rem;
+      height: 40rem;
+    }
+    .forth h3 {
+      width: 306px;
+      height: 48px;
+      /* UI Properties */
+      text-align: center;
+      font: normal normal bold 36px/48px Roboto;
+      letter-spacing: 0px;
+      color: #26093a;
+      opacity: 1;
+      border: n;
+      margin-left: 33rem;
+    }
+    .dif {
+        display: grid; 
+        grid-template-columns: 1fr 1fr 1fr; 
+        grid-template-rows: 1fr; 
+        gap: 10px px; 
+        grid-template-areas: 
+          ". . ."; 
+    }
+    
+    .box {
+      width: 25rem;
+      height: 18rem;
+      position: relative;
+    }
+    .hyph {
+      width: 3rem;
+      height: 3rem;
+      position: absolute;
+      /* border: 1px solid red; */
+    }
+    
+   
+    .dif p {
+      top: 202rem;
+    
+      width: 286px;
+      height: 80px;
+      text-align: center;
+      font: normal normal normal 16px/21px Roboto;
+      letter-spacing: 0px;
+      color: #ffffff;
+      /* border: 1px solid red; */
+      position: absolute;
+      margin-left: 6rem;
+    }
+    
+    /* 
+        position:absolute;
+         */
+    .clienta {
+      display: flex;
+      flex-direction: row;
+    }
+    .clienta img {
+      width: 4rem;
+      height: 4rem;
+      border-radius: 100%;
+      margin-left: 5rem;
+      margin-top: rem;
+    }
+    .clienta h5 {
+      margin-top: -rem;
+    }
+    .clienta h6 {
+      margin-top: -0.5rem;
+    }
+
+   }
+
