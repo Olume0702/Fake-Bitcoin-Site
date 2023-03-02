@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useState} from "react";
 import image1 from "../assets/10173124_8432.jpg";
 import image2 from "../assets/13399747_Presentation_1.jpg";
 import image3 from "../assets/79z_2204_w012_n001_50b_p12_50.jpg";
@@ -7,7 +7,10 @@ import image5 from "../assets/Group 52.svg";
 import apple from "../assets/Icon awesome-apple.svg";
 import google from "../assets/Group 53.svg";
 import { Link } from "react-router-dom";
+import More from "./More";
 const Third = () => {
+  
+    const [state,setState ] = useState(false)
   return (
     <div className="third">
       <h2>Why do people get involved with Cryptocurrencies?</h2>
@@ -39,8 +42,13 @@ const Third = () => {
             used for alternative store of wealth on long term investments.
           </p>
         </div>
+       
       </div>
-      <button id="btn6">learn More</button>
+      {state && <More/>}
+      <button id="btn6" onClick={()=>setState(!state)}>
+                {state ? 'learn less' : 'learn more'}{''}
+            </button>
+      {/* <button >learn More</button> */}
       <h2>Buy and Sell your Cryptocurrency in 3 simple steps</h2>
       <div className="too">
         <div className="pur">

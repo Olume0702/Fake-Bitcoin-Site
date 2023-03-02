@@ -674,8 +674,10 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  
+ 
     }
+
+    
     
   
     .po{
@@ -691,6 +693,8 @@
   background: #FFFFFF 0% 0% no-repeat padding-box;
   border-radius: 8px;
   opacity: 1;
+  
+  
   
     }
     .po p{
